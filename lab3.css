@@ -1,0 +1,111 @@
+
+
+form{
+    background-color: white;
+    margin: 60px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: -0px;
+    margin-right: -0px;
+    width: 815px;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    border-radius: 50px;
+    border-bottom: darkgray;
+    margin-bottom: auto;
+    
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    display: grid; */
+}
+
+img{
+    position: absolute;
+    left: -625px;
+    height: 100%;
+    
+}
+
+input[text=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  
+}
+
+#result{
+    position: absolute;
+    text-align: right;
+    bottom: 200px;
+    font-size: 20px;
+    font-family: monospace;
+}
+/* .first{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.last{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.email{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.password{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.confirm{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.radio{
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+
+.account{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.log{
+    grid-column: 1/2;
+    grid-row: 6/7;
+} */
+
+h1{
+    text-align: center;
+
+}
+
+
+
+button{
+    color: white;
+    background-color: blue;
+    padding: 14px 20px;
+    pointer-events: visible;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+label{
+    display: block;
+}
+
+#email{
+    width: 50%;
+}
+
+
